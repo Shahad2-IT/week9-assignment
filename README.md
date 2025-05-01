@@ -68,4 +68,28 @@ Verified response from both instances:
 for i in {1..5}; do curl -s http://clarusway-alb1-1483609001.eu-north-1.elb.amazonaws.com | grep "Hostname"; done
 Output shows alternating instance hostnames confirming proper distribution.
 
+## Screenshots
+
+### ✅ S3 Website Output
+![S3 Website](screenshots/s3-website-screenshot.png)
+
+### ✅ 200 OK Response
+![200 OK](screenshots/200.ok.png)
+
+### ✅ Auto Scaling Group (2 Instances)
+![ASG Instances](screenshots/asg-2-instances.png)
+
+### ✅ Load Balancer Target Group
+![Target Group](screenshots/ags.png)
+
+### ✅ DNS Output
+![DNS](screenshots/dns1.png)
+
+### ✅ Instance Distribution (Load Balancing)
+![Instance Distribution](screenshots/instance%20distribution.png)
+
+### ✅ curl 200 OK Test
+![Curl](screenshots/curl-200-ok.png)
+
+
 
